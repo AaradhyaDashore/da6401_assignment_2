@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Weights & Biases local logs
+wandb/
+
+# Datasets and Archives
+data/images/
+data/annotations/
+data/annotations.tar.gz
+*.tar
+*.tar.gz
+
+# Temporary Experimentation Scripts
+experiment_*.py
+
+# "In-the-wild" test images
+test1.jpg
+test2.jpg
+test3.jpg
+*.jpg
+*.jpeg
+*.png
