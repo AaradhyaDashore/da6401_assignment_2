@@ -26,9 +26,9 @@ class MultiTaskPerceptionModel(nn.Module):
         super().__init__()
         try:
             import gdown
-            gdown.download(id="1MC92smy87GPBAHQ43AexT2dSl6PtearA", output=classifier_path, quiet=False)
-            gdown.download(id="1KR2BbfhJS_bwwZgjDW9Q1Gnft9gCnYMA", output=localizer_path, quiet=False)
-            gdown.download(id="1RndKM4UcvGlyq5bexdbU2Hl3TdYrfDbG", output=unet_path, quiet=False)
+            gdown.download(id="1hKeNEAws--sD2c3Veb-AinfvnC8HjUmk", output=classifier_path, quiet=False)
+            gdown.download(id="1oPPtA4kPKm_kpWLYc35yNBsiWb_vqhrb", output=localizer_path, quiet=False)
+            gdown.download(id="1dY7vJmz5g7mZVqVrKz6V0LFaqbL_Rfgg", output=unet_path, quiet=False)
         except Exception as e:
             print(f"Skipping gdown download during local dev. Update IDs before submission. Error: {e}")
 
